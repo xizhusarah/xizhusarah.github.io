@@ -1,0 +1,174 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0; 
+}
+
+body {font-size:16px;
+    line-height:20px;
+}
+
+p {margin-bottom:15px; 
+}
+
+h2 {font-size:25px;
+    padding-bottom:3px;
+        
+}
+h3 {font-size:20px;
+    padding-bottom:1px;         
+}
+h4 {font-size:18px;
+    padding-bottom:1px;
+}
+
+ul {margin:0;
+}
+li {list-style:none;
+}
+
+a:link {color:#8b6914;
+        text-decoration:none;
+}
+
+a:hover {color:#aaa;
+         text-decoration:none;
+} 
+
+a:visited {color:#aaa; 
+}
+
+a:active {text-decoration:underline;
+}
+
+a.homefotter {float:inherit}
+
+/*-------------layout elements*/
+
+div#wrapper {background-color:#fff; 
+             width:90%; 
+             margin-left:10%;   
+}
+div#header {height:120px; 
+           text-align:center;
+}
+div#nav { width:15%; 
+          float:left;
+          margin-left:5%;
+}
+div#article { width:55%; 
+              float:left; 
+              margin-bottom:3%;
+              margin-left:3%;
+}
+div#footer {clear:both;
+            text-align:center;
+}
+
+aside {float:left;
+       border: 5px solid #8b6914; 
+       margin-right: 3%; 
+       margin-bottom: 1%; 
+       width: 45%;
+       height:285px;
+}
+
+/*------------homepage elements*/
+
+h2.homearticle{font-size:25px;
+           padding-bottom:15px;
+            text-align:center
+}
+h3.homearticle{font-size:20px;
+           padding-bottom:5px;
+            text-align:center
+}
+
+a.homenav{
+    border-radius: 50px;
+  	width: 57%;
+  	height: 100%; 
+  	display:block;
+	float: left;
+	font-family: sans-serif;
+    text-align: center;
+  	margin-bottom: 60px;
+  	margin-left:30%;
+  	line-height: 100px;
+    background-color:#8b6914 
+    color: #fff;
+    text-decoration:none;
+}
+
+a.homenav:link {
+  	background-color: #8b6914;
+  	color: #fff;  	
+    text-decoration:none; 
+}
+
+a.homenav:hover {
+	color: #000;
+	background-color: #e1e1e1;
+    text-decoration:none;
+}
+
+a.homenav:visited {
+    color:#fff;
+    background-color:#8b6914;
+}
+
+/*-------aboutpage elements*/
+aside.aboutarticle {float:right;
+    margin-left:3%;
+    margin-top: 3%;
+     border: 5px solid #8b6914; 
+    width:45%; 
+    height:285px;
+}
+
+/*----------dance elements--*/
+
+#slideshow { 
+    margin: 3% 3% 3% 0; 
+    position: relative; 
+    width: 55%; 
+    height:410px;
+    border: 5px solid #8b6914;
+}
+
+#slideshow > div { 
+    position: absolute; 
+   
+}
+
+aside.dancearticle {float: right; 
+    border: 0px; 
+    text-align:center;
+    margin: 15% 0 10% 7%;
+}
+
+aside.dancevideo {
+    margin-left: 8%;
+    width: 80%;
+    height: 350px; 
+    margin-top: 5px; 
+}
+
+/*---------contact elements--*/
+h2.contactarticle {
+    text-align:center;
+}
+
+/*------resume elements*/
+article.resumearticle{
+    text-align:center;
+}
+
+h3.resumearticle {
+text-decoration:underline;
+font-weight:bolder;
+}
+
+h5.resumearticle{
+    text-align:center;
+}
